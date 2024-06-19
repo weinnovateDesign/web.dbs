@@ -1,9 +1,7 @@
-# Nuxt Content
+# DBS Design Studio
 
-This page corresponds to the `/` route of your website. You can delete it or create another file in the `content/` directory.
+[Mind of an Engineer, Heart of an Artist]{class=""}
 
-Try to navigate to [/about](/about). These 2 pages are rendered by the `pages/[...slug].vue` component.
+Our mission is to build useful digital products for individuals and small businesses.
 
----
-
-Look at the [Content documentation](https://content.nuxtjs.org/) to learn more.
+_Based in Adelaide, South Australia._
