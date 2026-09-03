@@ -1,42 +1,12 @@
-# Content v2 Minimal Starter
+# DBS Design Studio — dbsdesignstudio.com.au
 
-Look at the [Content documentation](https://content.nuxt.com/) to learn more.
+Static site for DBS Design Studio — landing page, privacy policy, and terms of service.
 
-## Setup
+No build step. Deploy = push to main (GitHub Pages).
 
-Make sure to install the dependencies:
-
-```bash
-# yarn
-yarn install
-
-# npm
-npm install
-
-# pnpm
-pnpm install
 ```
-
-## Development Server
-
-Start the development server on http://localhost:3000
-
-```bash
-npm run dev
+index.html            Landing
+privacy/index.html    Privacy Policy
+terms/index.html      Terms of Service
+favicon.png           Favicon
 ```
-
-## Production
-
-Build the application for production:
-
-```bash
-npm run build
-```
-
-Locally preview production build:
-
-```bash
-npm run preview
-```
-
-Checkout the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.

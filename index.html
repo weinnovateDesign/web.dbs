@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DBS Design Studio — Digital Products for Individuals & Small Business</title>
+  <meta name="description" content="DBS Design Studio builds useful digital products for individuals and small businesses. Web design, development, and digital consultancy based in Adelaide, South Australia.">
+  <link rel="canonical" href="https://dbsdesignstudio.com.au/">
+  <link rel="icon" type="image/png" href="/favicon.png">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://dbsdesignstudio.com.au/">
+  <meta property="og:title" content="DBS Design Studio — Digital Products for Individuals & Small Business">
+  <meta property="og:description" content="Mind of an Engineer, Heart of an Artist. Building useful digital products. Based in Adelaide.">
+  <style>
+    :root {
+      --ink: #111111;
+      --paper: #ffffff;
+      --muted: #666666;
+      --accent: #2563eb;
+      --border: #e5e5e5;
+      --panel: #f8f9fb;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif;
+      background: var(--paper);
+      color: var(--ink);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      line-height: 1.6;
+    }
+    .wrap { max-width: 720px; margin: 0 auto; padding: 64px 24px 40px; flex: 1; }
+    .tagline {
+      font-size: 14px;
+      font-weight: 600;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 20px;
+    }
+    h1 {
+      font-size: 40px;
+      font-weight: 800;
+      line-height: 1.15;
+      letter-spacing: -0.02em;
+      margin-bottom: 8px;
+    }
+    h1 .em { color: var(--accent); }
+    .subtitle {
+      font-size: 18px;
+      font-weight: 500;
+      color: var(--muted);
+      margin-bottom: 32px;
+      font-style: italic;
+    }
+    .lead {
+      font-size: 16px;
+      color: #333;
+      max-width: 580px;
+      margin-bottom: 48px;
+      line-height: 1.7;
+    }
+    .location {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 14px;
+      color: var(--muted);
+      margin-bottom: 48px;
+    }
+    .services { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16px; margin-bottom: 48px; }
+    .service-card {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 20px;
+    }
+    .service-card h3 { font-size: 15px; font-weight: 700; margin-bottom: 6px; }
+    .service-card p { font-size: 13.5px; color: var(--muted); }
+    .contact { font-size: 14px; }
+    .contact a { color: var(--accent); text-decoration: none; }
+    hr { border: none; border-top: 1px solid var(--border); margin: 48px 0 20px; }
+    .legal-links { display: flex; gap: 24px; font-size: 14px; }
+    .legal-links a { color: var(--muted); text-decoration: none; }
+    .legal-links a:hover { color: var(--accent); }
+    footer {
+      border-top: 1px solid var(--border);
+      padding: 20px 24px;
+      text-align: center;
+      font-size: 13px;
+      color: var(--muted);
+    }
+    @media (max-width: 600px) {
+      h1 { font-size: 30px; }
+      .services { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="tagline">DBS Design Studio</div>
+    <h1>Mind of an <span class="em">Engineer</span>,<br>Heart of an <span class="em">Artist</span></h1>
+    <p class="subtitle">— Building useful digital products for individuals and small businesses.</p>
+    <p class="lead">We design and develop websites, web applications, and digital tools that solve real problems. Clean code, thoughtful design, and a focus on what actually works for our clients.</p>
+    <p class="location">📍 Based in Adelaide, South Australia</p>
+
+    <div class="services">
+      <div class="service-card">
+        <h3>Web Design</h3>
+        <p>Custom websites built for your brand and audience. Responsive, accessible, and built to perform.</p>
+      </div>
+      <div class="service-card">
+        <h3>Web Development</h3>
+        <p>Full-stack applications, static sites, and everything in between. Modern tooling, pragmatic delivery.</p>
+      </div>
+      <div class="service-card">
+        <h3>Digital Consultancy</h3>
+        <p>Strategy, SEO, analytics, and technical guidance to help you make the most of the web.</p>
+      </div>
+    </div>
+
+    <p class="contact">Email: <a href="mailto:hello@dbsdesignstudio.com.au">hello@dbsdesignstudio.com.au</a></p>
+
+    <hr>
+    <div class="legal-links">
+      <a href="/privacy/">Privacy Policy</a>
+      <a href="/terms/">Terms of Service</a>
+    </div>
+  </div>
+  <footer>
+    &copy; 2026 DBS Design Studio. All rights reserved.
+  </footer>
+</body>
+</html>
